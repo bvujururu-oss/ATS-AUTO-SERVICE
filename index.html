@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Auto Service | Mechanic & Diagnostics Chegutu</title>
+    <meta name="description" content="Professional motor mechanics and vehicle diagnostics in Chegutu, Zimbabwe. Engine overhauls, transmission, AC regas, and electrical wiring.">
+    <link rel="canonical" href="https://atsautoservice.com">
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #111111;
+            --header-bg: #111111;
+            --card-bg: #fdfdfd;
+            --card-border: #e0e0e0;
+            --accent-color: #f25002;
+            --accent-hover: #d14300;
+        }
+
+        .dark-theme {
+            --bg-color: #121212;
+            --text-color: #ffffff;
+            --header-bg: #000000;
+            --card-bg: #1e1e1e;
+            --card-border: #333333;
+        }
+
+        /* Critical CSS Reset for Performance */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            transition: background-color 0.2s ease, color 0.2s ease;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: var(--header-bg);
+            border-bottom: 4px solid var(--accent-color);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 700;
+            font-size: 1rem;
+            
+            &:hover, &:focus {
+                color: var(--accent-color);
+                outline: none;
+            }
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 2.5rem auto;
+            padding: 0 1.25rem;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            font-size: 2.25rem;
+            margin-bottom: 0.25rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            color: #666666;
+            font-size: 1.125rem;
+            margin-top: 0;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+        .dark-theme .subtitle {
+            color: #aaaaaa;
+        }
+
+        .description {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
+        }
+
+        .info-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: left;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+
+        .info-item {
+            margin: 1rem 0;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+
+            span {
+                font-size: 1.25rem;
+                flex-shrink: 0;
+            }
+
+            a {
+                color: var(--accent-color);
+                text-decoration: none;
+                font-weight: 700;
+
+                &:hover, &:focus {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .btn-booking {
+            display: block;
+            background-color: var(--accent-color);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1rem;
+            font-size: 1.125rem;
+            font-weight: 700;
+            border-radius: 6px;
+            margin: 2rem auto;
+            width: 100%;
+            transition: background-color 0.2s;
+
+            &:hover, &:focus {
+                background-color: var(--accent-hover);
+            }
+        }
+
+        .btn-toggle {
+            background-color: #333333;
+            color: #ffffff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-bottom: 2.5rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 600;
+
+            &:hover, &:focus {
+                background-color: #444444;
+            }
+        }
+        .dark-theme .btn-toggle {
+            background-color: #444444;
+            &:hover, &:focus { background-color: #555555; }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#services">Services</a>
+            <a href="#booking-section">Book Now</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>ATS Auto Service</h1>
+        <p class="subtitle">Professional Motor Mechanic & Vehicle Diagnostics</p>
+
+        <p id="services" class="description">
+            Providing expert vehicle maintenance, engine overhauls, transmission, clutch system, AC Regas, diagnostic testing, and electrical wiring solutions to keep you safely on the road.
+        </p>
+
+        <section id="booking-section" class="info-card" aria-label="Business Information">
+            <div class="info-item">
+                <span aria-hidden="true">📞</span> 
+                <div><strong>Call / WhatsApp:</strong> <a href="https://wa.me" target="_blank" rel="noopener">077 450 8005</a></div>
+            </div>
+            <div class="info-item">
+                <span aria-hidden="true">✉️</span> 
+                <div><strong>Email:</strong> <a href="mailto:bvujururu@gmail.com">bvujururu@gmail.com</a></div>
+            </div>
+            <div class="info-item">
+                <span aria-hidden="true">📍</span> 
+                <div><strong>Location:</strong> Chegutu, Zimbabwe</div>
+            </div>
+            <div class="info-item">
+                <span aria-hidden="true">⏰</span> 
+                <div><strong>Hours:</strong> Mon - Sat: 8:00 AM - 5:00 PM</div>
+            </div>
+        </section>
+
+        <a href="https://wa.me" target="_blank" rel="noopener" class="btn-booking">
+            📅 Schedule Workshop Booking
+        </a>
+
+        <button class="btn-toggle" id="lightingToggle" type="button">
+            🔧 Toggle Garage Lighting
+        </button>
+    </main>
+
+    <script type="module">
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleButton = document.getElementById('lightingToggle');
+            
+            // Check for user OS dark mode preference out of the box
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.body.classList.add('dark-theme');
+            }
+
+            toggleButton.addEventListener('click', () => {
+                document.body.classList.toggle('dark-theme');
+            });
+        });
+    </script>
+</body>
+            </html>
+        /*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: interest-cohort=()
+  Cache-Control: public, max-age=0, must-revalidate
+  
